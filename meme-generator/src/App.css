@@ -6,6 +6,10 @@ nav{
 
 }
 
+main{
+  padding:2em;
+}
+
 .nav--logo{
   width: 50px;
   
@@ -13,5 +17,28 @@ nav{
 
 .nav--title{
   padding-left: 1.2em;
-  font-size: medium;
+  font-size: Me;
+}
+
+.form{
+  display: grid;
+  gap : 1.1em;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+
+.form--input{
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.form--button{
+  grid-column: 1/-1;
+  border-radius:5px;
+  background-color: antiquewhite;
+  cursor: pointer;
+
+}
+
+.meme--image{
+  max-width: 100%;
 }
